@@ -4,23 +4,23 @@ public class Zoologico {
     public static void main(String[] args) {
 
 
-        Animal animal1 = new Animal()
-        animal1.nombre="Cebra";
-        animal1.genero="F";
+        Animal animal1 = new Animal();
+        animal1.nombre="Caballo";
+        animal1.genero="M";
 
 
-        animal animal2 = new animal();
-        animal2.nombre="Caballo";
-        animal2.genero="M";
+        Animal animal2 = new Animal();
+        animal2.nombre="Cebra";
+        animal2.genero="F";
 
 
-        animal1.encontrarpareja(animal2); //Un animal consigue pareja
+        animal1.encontrarPareja(animal2); //Un animal consigue pareja
 
 
-        Familia familia = new Familia(animal2;animal1);
+        Familia familia = new Familia (animal1,animal2);
 
 
-        familia.tenerhijo("Cebrallo")
+        familia.tenerHijo("Cebrallo");
 
 
         familia.imprimirFamilia();
